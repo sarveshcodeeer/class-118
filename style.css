@@ -1,0 +1,46 @@
+body {
+
+background :  linear-gradient(yellow 20% ,  rgb(46, 23, 220)  100% )
+
+
+
+}
+
+#hed {
+
+
+background : linear-gradient(red 0% , yellow 100%);
+padding :10px ; 
+margin :0px
+}
+
+#hed button {
+
+    float: right;
+}
+
+h4 {
+
+background-color: rgba(128, 0, 0, 0.499);
+color: aliceblue;
+width: 13%;
+border-radius:25px ;
+
+padding: 10px;
+}
+
+canvas {
+
+ animation-name: dr ;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+border:5px solid whitesmoke ;
+margin-top:140px ; 
+border-radius: 40px; 
+}
+
+@keyframes dr {
+
+from{box-shadow: 1px 1px 39px darkblue;}
+to{box-shadow: 1px 1px 39px rgb(248, 1, 1);}
+}
